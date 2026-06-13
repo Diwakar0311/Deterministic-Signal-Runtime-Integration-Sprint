@@ -1,13 +1,10 @@
-
 # UCCIS Signal Provider
 
 ## Overview
 
-This project provides a deterministic Signal Provider designed for UCCIS operational runtime integration.
+This project provides a deterministic Signal Provider designed to support operational runtime participation within the UCCIS integration chain.
 
-The service exposes operational signals through FastAPI APIs and supports deterministic runtime behavior, trace propagation, replay readiness, and runtime evidence generation.
-
----
+The service exposes structured operational signals through FastAPI APIs and supports trace propagation, replay readiness, runtime evidence generation, and deterministic execution.
 
 ## Features
 
@@ -17,9 +14,7 @@ The service exposes operational signals through FastAPI APIs and supports determ
 * Trace propagation support
 * Replay readiness
 * Runtime evidence support
-* UCCIS integration support
-
----
+* Integration-ready operational datasets
 
 ## Runtime Chain
 
@@ -49,8 +44,6 @@ Replay Visibility
 
 Runtime Evidence
 
----
-
 ## API Endpoints
 
 ### GET /signals
@@ -61,43 +54,37 @@ Returns all operational signals.
 
 Returns a specific signal.
 
+### GET /telemetry
+
+Returns telemetry information.
+
+### GET /incident
+
+Returns incident information.
+
+### GET /escalation
+
+Returns escalation information.
+
+### GET /dashboard
+
+Returns dashboard visibility information.
+
+### GET /replay
+
+Returns replay visibility information.
+
+### GET /runtime-evidence
+
+Returns runtime evidence information.
+
 ### GET /health
 
 Returns service health information.
 
----
-
-## Project Structure
-
-.
-├── app.py
-├── trace.py
-├── traffic.json
-├── requirements.txt
-├── README.md
-├── REVIEW_PACKET.md
-├── REPOSITORY_STRUCTURE.md
-├── DETERMINISTIC_RUNTIME_PROOF.md
-├── TRACE_PROPAGATION_REPORT.md
-├── INTEGRATION_PROOF.md
-├── REPLAY_READINESS_REPORT.md
-└── END_TO_END_PROOF.md
-
----
-
 ## Run Application
 
 uvicorn app:app --reload
-
-Application URL:
-
-http://127.0.0.1:8000
-
-Swagger Documentation:
-
-http://127.0.0.1:8000/docs
-
----
 
 ## Technologies Used
 
@@ -106,8 +93,7 @@ http://127.0.0.1:8000/docs
 * Uvicorn
 * JSON Dataset Storage
 
----
-
 ## Status
 
-Ready for deterministic runtime participation within the UCCIS operational chain.
+Ready for deterministic runtime participation and UCCIS integration workflows.
+
