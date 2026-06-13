@@ -1,18 +1,29 @@
 
 ## Folder Structure
 
-.
+
 ├── app.py
+
 ├── trace.py
+
 ├── traffic.json
+
 ├── requirements.txt
+
 ├── README.md
+
 ├── REVIEW_PACKET.md
+
 ├── REPOSITORY_STRUCTURE.md
+
 ├── DETERMINISTIC_RUNTIME_PROOF.md
+
 ├── TRACE_PROPAGATION_REPORT.md
+
 ├── INTEGRATION_PROOF.md
+
 ├── REPLAY_READINESS_REPORT.md
+
 └── END_TO_END_PROOF.md
 
 ---
