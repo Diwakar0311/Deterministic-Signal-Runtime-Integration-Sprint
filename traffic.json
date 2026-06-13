@@ -1,0 +1,117 @@
+[
+  {
+    "signal_id": "SIG001",
+    "trace_id": "TRACE_SIG001",
+    "origin_signal_id": "SIG001",
+    "parent_reference": null,
+    "created_at": "2026-06-10T10:00:00Z",
+    "schema_version": "1.0",
+    "signal_type": "Flood Alert",
+    "source_system": "WaterMonitoring",
+    "location_id": "LOC001",
+    "status": "ACTIVE",
+    "confidence": 0.94,
+    "payload": {
+      "water_level": 8.7,
+      "threshold": 7.0
+    }
+  },
+  {
+    "signal_id": "SIG002",
+    "trace_id": "TRACE_SIG002",
+    "origin_signal_id": "SIG002",
+    "parent_reference": null,
+    "created_at": "2026-06-10T10:05:00Z",
+    "schema_version": "1.0",
+    "signal_type": "Traffic Congestion",
+    "source_system": "TrafficControl",
+    "location_id": "LOC002",
+    "status": "ACTIVE",
+    "confidence": 0.91,
+    "payload": {
+      "density": 88,
+      "avg_speed": 12
+    }
+  },
+  {
+    "signal_id": "SIG003",
+    "trace_id": "TRACE_SIG003",
+    "origin_signal_id": "SIG003",
+    "parent_reference": null,
+    "created_at": "2026-06-10T10:10:00Z",
+    "schema_version": "1.0",
+    "signal_type": "Medical Emergency",
+    "source_system": "EmergencyResponse",
+    "location_id": "LOC003",
+    "status": "CRITICAL",
+    "confidence": 0.98,
+    "payload": {
+      "patients": 4,
+      "severity": "HIGH"
+    }
+  },
+  {
+    "signal_id": "SIG004",
+    "trace_id": "TRACE_SIG004",
+    "origin_signal_id": "SIG004",
+    "parent_reference": null,
+    "created_at": "2026-06-10T10:15:00Z",
+    "schema_version": "1.0",
+    "signal_type": "Power Failure",
+    "source_system": "PowerGrid",
+    "location_id": "LOC004",
+    "status": "ACTIVE",
+    "confidence": 0.89,
+    "payload": {
+      "affected_houses": 450
+    }
+  },
+  {
+    "signal_id": "SIG005",
+    "trace_id": "TRACE_SIG005",
+    "origin_signal_id": "SIG005",
+    "parent_reference": null,
+    "created_at": "2026-06-10T10:20:00Z",
+    "schema_version": "1.0",
+    "signal_type": "Cyber Incident",
+    "source_system": "SOC",
+    "location_id": "LOC005",
+    "status": "CRITICAL",
+    "confidence": 0.97,
+    "payload": {
+      "attack_type": "DDoS"
+    }
+  },
+  {
+    "signal_id": "SIG006",
+    "trace_id": "TRACE_SIG006",
+    "origin_signal_id": "SIG006",
+    "parent_reference": null,
+    "created_at": "2026-06-10T10:25:00Z",
+    "schema_version": "1.0",
+    "signal_type": "Water Level Alert",
+    "source_system": "ReservoirSystem",
+    "location_id": "LOC006",
+    "status": "WARNING",
+    "confidence": 0.86,
+    "payload": {
+      "level": 78
+    }
+  },
+  {
+    "signal_id": "SIG007",
+    "trace_id": "TRACE_SIG007",
+    "origin_signal_id": "SIG007",
+    "parent_reference": null,
+    "created_at": "2026-06-10T10:30:00Z",
+    "schema_version": "1.0",
+    "signal_type": "TTG Scenario",
+    "source_system": "UCCIS",
+    "location_id": "LOC007",
+    "status": "ACTIVE",
+    "confidence": 0.93,
+    "payload": {
+      "ttg_minutes": 15
+    }
+  }
+]
