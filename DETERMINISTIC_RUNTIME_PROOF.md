@@ -2,40 +2,34 @@
 
 ## Objective
 
-Validate that the Signal Provider produces deterministic responses across repeated executions.
+Validate that the Signal Provider produces deterministic and reproducible responses across repeated executions.
 
 ---
 
-## Current Problem
+## Problem Statement
 
-Previous implementation generated:
-
-* Dynamic trace identifiers
-* Dynamic timestamps
-* Rebuilt signals on every request
-
-This caused non-deterministic responses.
+Previous runtime behavior generated dynamic values during request execution, resulting in non-deterministic responses.
 
 ---
 
 ## Implemented Solution
 
-The signal dataset is now persisted in traffic.json.
+The signal dataset is persisted in traffic.json.
 
-The runtime uses:
+The implementation now uses:
 
 * Stable signal identifiers
 * Stable trace identifiers
 * Stable timestamps
 * Persisted signal records
 
-No signal reconstruction occurs during API execution.
+No runtime signal reconstruction occurs during API execution.
 
 ---
 
 ## Validation Procedure
 
-Endpoint:
+Endpoint Tested:
 
 GET /signals
 
@@ -67,6 +61,11 @@ Verified:
 ---
 
 ## Result
+
+The Signal Provider now produces deterministic and reproducible responses.
+
+Deterministic runtime requirement satisfied.
+
 
 The Signal Provider now produces deterministic and reproducible responses.
 
