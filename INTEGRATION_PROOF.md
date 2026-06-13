@@ -1,9 +1,16 @@
-
 # Integration Proof
 
 ## Objective
 
 Prepare the Signal Provider for participation within the UCCIS operational runtime chain.
+
+---
+
+## Integration Target
+
+The Signal Provider is no longer evaluated as an isolated service.
+
+The service now participates within the UCCIS operational workflow and provides structured operational signals for downstream runtime consumption.
 
 ---
 
@@ -35,13 +42,17 @@ Signal ID:
 
 SIG001
 
+Trace ID:
+
+TRACE_SIG001
+
 ---
 
-### Step 1
+## Runtime Flow
 
-Signal Generated
+### Step 1 – Signal Generated
 
-Source:
+Source System:
 
 WaterMonitoring
 
@@ -49,45 +60,87 @@ Status:
 
 ACTIVE
 
----
+Signal Created:
 
-### Step 2
-
-Telemetry Created
-
-Trace Identifier:
-
-TRACE_SIG001
+SIG001
 
 ---
 
-### Step 3
+### Step 2 – Telemetry Created
 
-Incident Created
+Telemetry ID:
+
+TEL001
 
 Origin Signal:
 
 SIG001
 
+Trace ID:
+
+TRACE_SIG001
+
+Status:
+
+COLLECTED
+
 ---
 
-### Step 4
+### Step 3 – Incident Created
 
-Escalation Created
+Incident ID:
 
-Reference:
+INC001
+
+Origin Signal:
 
 SIG001
 
+Trace ID:
+
+TRACE_SIG001
+
+Status:
+
+OPEN
+
 ---
 
-## Integration Outcome
+### Step 4 – Escalation Created
 
-Signal lineage preserved.
+Escalation ID:
 
-Trace information preserved.
+ESC001
 
-Operational processing chain supported.
+Origin Signal:
+
+SIG001
+
+Trace ID:
+
+TRACE_SIG001
+
+Status:
+
+ESCALATED
+
+---
+
+## Integration Validation
+
+Verified:
+
+- Signal successfully exposed through API.
+- Trace information preserved.
+- Origin signal reference preserved.
+- Runtime processing chain maintained.
+- Integration-ready signal format available.
+
+---
+
+## Result
+
+The Signal Provider is prepared to participate as an upstream operational source within the UCCIS runtime integration workflow.
 
 ---
 
