@@ -1,0 +1,52 @@
+[
+  {
+    "incident_id": "INC_b4542bfd",
+    "trace_id": "TRACE_SIG001",
+    "telemetry_id": "TEL_385d9bf0",
+    "origin_signal_id": "SIG001",
+    "parent_reference": "TEL_385d9bf0",
+    "severity": "HIGH",
+    "status": "OPEN",
+    "created_at": "2026-06-19T16:06:13.925998"
+  },
+  {
+    "incident_id": "INC_3a7cf336",
+    "trace_id": "TRACE_SIG001",
+    "telemetry_id": "TEL_95583c57",
+    "origin_signal_id": "SIG001",
+    "parent_reference": "TEL_95583c57",
+    "severity": "HIGH",
+    "status": "OPEN",
+    "created_at": "2026-06-19T16:06:15.809146"
+  },
+  {
+    "incident_id": "INC_f3092d7f",
+    "trace_id": "TRACE_SIG001",
+    "telemetry_id": "TEL_9506cff6",
+    "origin_signal_id": "SIG001",
+    "parent_reference": "TEL_9506cff6",
+    "severity": "HIGH",
+    "status": "OPEN",
+    "created_at": "2026-06-19T16:06:16.790704"
+  },
+  {
+    "incident_id": "INC_7f418eec",
+    "trace_id": "TRACE_SIG001",
+    "telemetry_id": "TEL_91a0293b",
+    "origin_signal_id": "SIG001",
+    "parent_reference": "TEL_91a0293b",
+    "severity": "HIGH",
+    "status": "OPEN",
+    "created_at": "2026-06-19T16:06:17.088968"
+  },
+  {
+    "incident_id": "INC_442a5472",
+    "trace_id": "TRACE_SIG001",
+    "telemetry_id": "TEL_8853f506",
+    "origin_signal_id": "SIG001",
+    "parent_reference": "TEL_8853f506",
+    "severity": "HIGH",
+    "status": "OPEN",
+    "created_at": "2026-06-19T16:06:32.672188"
+  }
+]

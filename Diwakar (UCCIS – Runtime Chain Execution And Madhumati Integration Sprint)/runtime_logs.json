@@ -1,0 +1,87 @@
+[
+  {
+    "trace_id": "TRACE_SIG001",
+    "execution_timestamp": "2026-06-19T16:06:13.925998",
+    "execution_duration_ms": 0.0,
+    "generated_ids": {
+      "signal_id": "SIG001",
+      "telemetry_id": "TEL_385d9bf0",
+      "incident_id": "INC_b4542bfd",
+      "escalation_id": "ESC_c02bfbbc"
+    },
+    "runtime_events": [
+      "Signal Created",
+      "Telemetry Created",
+      "Incident Created",
+      "Escalation Created"
+    ]
+  },
+  {
+    "trace_id": "TRACE_SIG001",
+    "execution_timestamp": "2026-06-19T16:06:15.809146",
+    "execution_duration_ms": 61.26,
+    "generated_ids": {
+      "signal_id": "SIG001",
+      "telemetry_id": "TEL_95583c57",
+      "incident_id": "INC_3a7cf336",
+      "escalation_id": "ESC_34514dd3"
+    },
+    "runtime_events": [
+      "Signal Created",
+      "Telemetry Created",
+      "Incident Created",
+      "Escalation Created"
+    ]
+  },
+  {
+    "trace_id": "TRACE_SIG001",
+    "execution_timestamp": "2026-06-19T16:06:16.790704",
+    "execution_duration_ms": 73.15,
+    "generated_ids": {
+      "signal_id": "SIG001",
+      "telemetry_id": "TEL_9506cff6",
+      "incident_id": "INC_f3092d7f",
+      "escalation_id": "ESC_4630a67c"
+    },
+    "runtime_events": [
+      "Signal Created",
+      "Telemetry Created",
+      "Incident Created",
+      "Escalation Created"
+    ]
+  },
+  {
+    "trace_id": "TRACE_SIG001",
+    "execution_timestamp": "2026-06-19T16:06:17.088968",
+    "execution_duration_ms": 108.44,
+    "generated_ids": {
+      "signal_id": "SIG001",
+      "telemetry_id": "TEL_91a0293b",
+      "incident_id": "INC_7f418eec",
+      "escalation_id": "ESC_8c9205df"
+    },
+    "runtime_events": [
+      "Signal Created",
+      "Telemetry Created",
+      "Incident Created",
+      "Escalation Created"
+    ]
+  },
+  {
+    "trace_id": "TRACE_SIG001",
+    "execution_timestamp": "2026-06-19T16:06:32.672188",
+    "execution_duration_ms": 71.54,
+    "generated_ids": {
+      "signal_id": "SIG001",
+      "telemetry_id": "TEL_8853f506",
+      "incident_id": "INC_442a5472",
+      "escalation_id": "ESC_af0a9b9e"
+    },
+    "runtime_events": [
+      "Signal Created",
+      "Telemetry Created",
+      "Incident Created",
+      "Escalation Created"
+    ]
+  }
+]

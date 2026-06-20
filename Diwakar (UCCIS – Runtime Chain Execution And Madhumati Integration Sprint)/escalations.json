@@ -1,0 +1,52 @@
+[
+  {
+    "escalation_id": "ESC_c02bfbbc",
+    "trace_id": "TRACE_SIG001",
+    "incident_id": "INC_b4542bfd",
+    "origin_signal_id": "SIG001",
+    "parent_reference": "INC_b4542bfd",
+    "level": "LEVEL-1",
+    "status": "ACTIVE",
+    "created_at": "2026-06-19T16:06:13.925998"
+  },
+  {
+    "escalation_id": "ESC_34514dd3",
+    "trace_id": "TRACE_SIG001",
+    "incident_id": "INC_3a7cf336",
+    "origin_signal_id": "SIG001",
+    "parent_reference": "INC_3a7cf336",
+    "level": "LEVEL-1",
+    "status": "ACTIVE",
+    "created_at": "2026-06-19T16:06:15.809146"
+  },
+  {
+    "escalation_id": "ESC_4630a67c",
+    "trace_id": "TRACE_SIG001",
+    "incident_id": "INC_f3092d7f",
+    "origin_signal_id": "SIG001",
+    "parent_reference": "INC_f3092d7f",
+    "level": "LEVEL-1",
+    "status": "ACTIVE",
+    "created_at": "2026-06-19T16:06:16.790704"
+  },
+  {
+    "escalation_id": "ESC_8c9205df",
+    "trace_id": "TRACE_SIG001",
+    "incident_id": "INC_7f418eec",
+    "origin_signal_id": "SIG001",
+    "parent_reference": "INC_7f418eec",
+    "level": "LEVEL-1",
+    "status": "ACTIVE",
+    "created_at": "2026-06-19T16:06:17.088968"
+  },
+  {
+    "escalation_id": "ESC_af0a9b9e",
+    "trace_id": "TRACE_SIG001",
+    "incident_id": "INC_442a5472",
+    "origin_signal_id": "SIG001",
+    "parent_reference": "INC_442a5472",
+    "level": "LEVEL-1",
+    "status": "ACTIVE",
+    "created_at": "2026-06-19T16:06:32.672188"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "telemetry_id": "TEL_385d9bf0",
+    "trace_id": "TRACE_SIG001",
+    "signal_id": "SIG001",
+    "payload": {
+      "source": "UCCIS Runtime"
+    },
+    "origin_signal_id": "SIG001",
+    "parent_reference": "SIG001",
+    "created_at": "2026-06-19T16:06:13.925998",
+    "status": "COLLECTED"
+  },
+  {
+    "telemetry_id": "TEL_95583c57",
+    "trace_id": "TRACE_SIG001",
+    "signal_id": "SIG001",
+    "payload": {
+      "source": "UCCIS Runtime"
+    },
+    "origin_signal_id": "SIG001",
+    "parent_reference": "SIG001",
+    "created_at": "2026-06-19T16:06:15.809146",
+    "status": "COLLECTED"
+  },
+  {
+    "telemetry_id": "TEL_9506cff6",
+    "trace_id": "TRACE_SIG001",
+    "signal_id": "SIG001",
+    "payload": {
+      "source": "UCCIS Runtime"
+    },
+    "origin_signal_id": "SIG001",
+    "parent_reference": "SIG001",
+    "created_at": "2026-06-19T16:06:16.790704",
+    "status": "COLLECTED"
+  },
+  {
+    "telemetry_id": "TEL_91a0293b",
+    "trace_id": "TRACE_SIG001",
+    "signal_id": "SIG001",
+    "payload": {
+      "source": "UCCIS Runtime"
+    },
+    "origin_signal_id": "SIG001",
+    "parent_reference": "SIG001",
+    "created_at": "2026-06-19T16:06:17.088968",
+    "status": "COLLECTED"
+  },
+  {
+    "telemetry_id": "TEL_8853f506",
+    "trace_id": "TRACE_SIG001",
+    "signal_id": "SIG001",
+    "payload": {
+      "source": "UCCIS Runtime"
+    },
+    "origin_signal_id": "SIG001",
+    "parent_reference": "SIG001",
+    "created_at": "2026-06-19T16:06:32.672188",
+    "status": "COLLECTED"
+  }
+]
